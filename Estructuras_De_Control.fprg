@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-20 03:54:30 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzozODoxOSBQTTszMDYy"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzo1NDozMCBQTTsyOzMxNjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="EdadPersona" type="Integer" array="False" size=""/>
+            <input variable="EdadPersona"/>
+            <declare name="EdadAccesoAlEjercito" type="Integer" array="False" size=""/>
+            <assign variable="EdadAccesoAlEjercito" expression="18"/>
+            <declare name="A&#241;osDeEspera" type="Integer" array="False" size=""/>
+            <assign variable="A&#241;osDeEspera" expression="EdadAccesoAlEjercito - EdadPersona"/>
+            <if expression="EdadPersona &gt;= 18">
+                <then>
+                    <output expression="&quot;Puede enlistarse para el ejercito&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Lo sentimos, debe esperar &quot; &amp; A&#241;osDeEspera &amp; &quot; a&#241;os&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

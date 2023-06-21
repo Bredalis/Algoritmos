@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-20 03:37:35 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoyNjo0NyBQTTszMDYw"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzozNzozNSBQTTsyOzMxNjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <assign variable="Nombre" expression="&quot;Bredalis&quot;"/>
+            <declare name="Apellido" type="String" array="False" size=""/>
+            <assign variable="Apellido" expression="&quot;Guerrero&quot;"/>
+            <declare name="NombreCompleto" type="String" array="False" size=""/>
+            <assign variable="NombreCompleto" expression="Nombre &amp; &quot; &quot; &amp; Apellido"/>
+            <output expression="&quot;El usuario se llama: &quot; &amp; NombreCompleto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

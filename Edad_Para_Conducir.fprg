@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-18 04:05:09 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0xODswMzo0MDozMCBQTTszMDU1"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0xODswNDowNTowOSBQTTsxOzMxNzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NacimientoPedro" type="Integer" array="False" size=""/>
+            <assign variable="NacimientoPedro" expression="2008"/>
+            <declare name="A&#241;oActual" type="Integer" array="False" size=""/>
+            <assign variable="A&#241;oActual" expression="2023"/>
+            <declare name="EdadConducir" type="Integer" array="False" size=""/>
+            <assign variable="EdadConducir" expression="18"/>
+            <declare name="EdadPedro" type="Integer" array="False" size=""/>
+            <assign variable="EdadPedro" expression="A&#241;oActual - NacimientoPedro"/>
+            <if expression="EdadPedro &gt;= EdadConducir">
+                <then>
+                    <output expression="&quot;Pedro puede conducir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Pedro no puede conducir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

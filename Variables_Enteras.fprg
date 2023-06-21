@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-20 03:21:37 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoxMjo1OSBQTTszMDU4"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoyMTozNyBQTTsyOzMxNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="EdadPedro" type="Integer" array="False" size=""/>
+            <assign variable="EdadPedro" expression="12"/>
+            <assign variable="EdadPedro" expression="27"/>
+            <declare name="EdadAntonio" type="Integer" array="False" size=""/>
+            <assign variable="EdadAntonio" expression="10"/>
+            <declare name="RestaEdades" type="Integer" array="False" size=""/>
+            <assign variable="RestaEdades" expression="EdadPedro - EdadAntonio"/>
+        </body>
+    </function>
+</flowgorithm>
