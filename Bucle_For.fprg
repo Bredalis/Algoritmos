@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-24 03:22:41 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNDswMzoxNTo0OSBQTTszMDY0"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNDswMzoyMjo0MSBQTTsyOzMxNjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Mensaje" type="String" array="False" size=""/>
+            <input variable="Mensaje"/>
+            <declare name="Contador" type="Integer" array="False" size=""/>
+            <assign variable="Contador" expression="0"/>
+            <for variable="Contador" start="0" end="10" direction="inc" step="1">
+                <output expression="Mensaje" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

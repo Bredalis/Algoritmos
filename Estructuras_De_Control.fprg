@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-20 03:54:30 PM"/>
+        <attribute name="saved" value="2023-06-26 06:45:47 PM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzozODoxOSBQTTszMDYy"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzo1NDozMCBQTTsyOzMxNjI="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNjo0NTo0NyBQTTszOzMxODA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -22,7 +22,7 @@
                     <output expression="&quot;Puede enlistarse para el ejercito&quot;" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Lo sentimos, debe esperar &quot; &amp; A&#241;osDeEspera &amp; &quot; a&#241;os&quot;" newline="True"/>
+                    <output expression="&quot;Lo sentimos, debe esperar &quot; &amp; A&#241;osDeEspera &amp; &quot; a&#241;os para ir al ejercito&quot;" newline="True"/>
                 </else>
             </if>
         </body>

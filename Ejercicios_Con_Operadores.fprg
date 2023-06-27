@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-26 06:47:01 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMjswNDoxNzoxNSBQTTszMDU4"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNjo0NzowMSBQTTs0OzMxNzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="EdadPersona" type="Integer" array="False" size=""/>
+            <input variable="EdadPersona"/>
+            <declare name="Pais" type="String" array="False" size=""/>
+            <input variable="Pais"/>
+            <if expression="(Pais == &quot;Espa&#241;a&quot; &amp;&amp; EdadPersona &gt;= 18) || (Pais == &quot;Colombia&quot; &amp;&amp; EdadPersona &gt;= 18)">
+                <then>
+                    <output expression="&quot;Puedes ir al ejercito&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No puedes ir al ejercito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

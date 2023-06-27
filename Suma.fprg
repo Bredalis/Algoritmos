@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-25 04:44:14 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNTswNDozNDoxMSBQTTszMDU2"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNTswNDo0NDoxNCBQTTsyOzMxNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero1" type="Integer" array="False" size=""/>
+            <declare name="Numero2" type="Integer" array="False" size=""/>
+            <input variable="Numero1"/>
+            <input variable="Numero2"/>
+            <declare name="Resultado" type="Integer" array="False" size=""/>
+            <assign variable="Resultado" expression="Suma2Elementos(Numero1, Numero2)"/>
+        </body>
+    </function>
+    <function name="Suma2Elementos" type="Integer" variable="Resultado">
+        <parameters>
+            <parameter name="Numero1" type="Integer" array="False"/>
+            <parameter name="Numero2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Resultado" type="Integer" array="False" size=""/>
+            <assign variable="Resultado" expression="Numero1 + Numero2"/>
+        </body>
+    </function>
+</flowgorithm>

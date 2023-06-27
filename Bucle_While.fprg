@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-23 05:45:57 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNTozMToyMiBQTTszMDU0"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNTo0NTo1NyBQTTsyOzMxNzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PersonasCharlas" type="String" array="True" size="4"/>
+            <assign variable="PersonasCharlas[0]" expression="&quot;Pedro&quot;"/>
+            <assign variable="PersonasCharlas[1]" expression="&quot;Karla&quot;"/>
+            <assign variable="PersonasCharlas[2]" expression="&quot;Lucia&quot;"/>
+            <assign variable="PersonasCharlas[3]" expression="&quot;Carmen&quot;"/>
+            <declare name="Contador" type="Integer" array="False" size=""/>
+            <assign variable="Contador" expression="0"/>
+            <while expression="Contador &lt; 4">
+                <output expression="&quot;Te llamas: &quot; &amp; PersonasCharlas[Contador]" newline="True"/>
+                <assign variable="Contador" expression="Contador + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

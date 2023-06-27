@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-23 05:30:51 PM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNToxMzozMSBQTTszMDU0"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNTozMDo1MSBQTTsyOzMxNjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Telefonos" type="Integer" array="True" size="3"/>
+            <assign variable="Telefonos[2]" expression="8094162002"/>
+            <assign variable="Telefonos[1]" expression="8498803462"/>
+            <assign variable="Telefonos[0]" expression="8094562602"/>
+            <declare name="Nombres" type="String" array="True" size="3"/>
+            <assign variable="Nombres[0]" expression="&quot;Bredalis&quot;"/>
+            <assign variable="Nombres[1]" expression="&quot;Yulissa&quot;"/>
+            <assign variable="Nombres[2]" expression="&quot;Karla&quot;"/>
+            <output expression="&quot;Tu nombre es: &quot; &amp; Nombres[0]" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
