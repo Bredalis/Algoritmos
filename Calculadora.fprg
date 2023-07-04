@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-26 06:41:33 PM"/>
+        <attribute name="saved" value="2023-07-03 04:38:49 PM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMjswNDoyNToyMSBQTTszMDU0"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNjo0MTozMyBQTTs1OzMxNzM="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNy0wMzswNDozODo0OSBQTTs2OzMxODE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -34,7 +34,14 @@
                                 <else>
                                     <if expression="Operacion == &quot;Division&quot;">
                                         <then>
-                                            <output expression="&quot;El resultado de la &quot; &amp; Operacion &amp; &quot; es: &quot; &amp; Numero1 / Numero2" newline="True"/>
+                                            <if expression="Numero2 == 0">
+                                                <then>
+                                                    <output expression="&quot;No puedes dividir por cero&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;El resultado de la &quot; &amp; Operacion &amp; &quot; es: &quot; &amp; Numero1 / Numero2" newline="True"/>
+                                                </else>
+                                            </if>
                                         </then>
                                         <else>
                                             <output expression="&quot;Incorrecto, solo se puede sumar, restar, multiplicar y dividir&quot;" newline="True"/>
