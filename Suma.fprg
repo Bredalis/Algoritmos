@@ -4,29 +4,29 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-25 04:44:14 PM"/>
+        <attribute name="saved" value="2023-08-18 11:04:49 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNTswNDozNDoxMSBQTTszMDU2"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNTswNDo0NDoxNCBQTTsyOzMxNjk="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMTowNDo0OSBBTTszOzMxNjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Numero1" type="Integer" array="False" size=""/>
-            <declare name="Numero2" type="Integer" array="False" size=""/>
-            <input variable="Numero1"/>
-            <input variable="Numero2"/>
-            <declare name="Resultado" type="Integer" array="False" size=""/>
-            <assign variable="Resultado" expression="Suma2Elementos(Numero1, Numero2)"/>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <input variable="numero1"/>
+            <input variable="numero2"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="Suma2Elementos(numero1, numero2)"/>
         </body>
     </function>
-    <function name="Suma2Elementos" type="Integer" variable="Resultado">
+    <function name="Suma2Elementos" type="Integer" variable="resultado">
         <parameters>
-            <parameter name="Numero1" type="Integer" array="False"/>
-            <parameter name="Numero2" type="Integer" array="False"/>
+            <parameter name="numero1" type="Integer" array="False"/>
+            <parameter name="numero2" type="Integer" array="False"/>
         </parameters>
         <body>
-            <declare name="Resultado" type="Integer" array="False" size=""/>
-            <assign variable="Resultado" expression="Numero1 + Numero2"/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <assign variable="resultado" expression="numero1 + numero2"/>
         </body>
     </function>
 </flowgorithm>

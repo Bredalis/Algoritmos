@@ -4,19 +4,19 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-26 06:51:23 PM"/>
+        <attribute name="saved" value="2023-08-18 11:01:04 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMTswNDo0Njo1MSBQTTszMDU5"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNjo1MToyMyBQTTsyOzMxNzA="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMTowMTowNCBBTTszOzMxNDk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <if expression="&quot;Hola&quot; == &quot;True&quot;">
+            <if expression="&quot;Hola&quot; == &quot;Hola&quot;">
                 <then>
-                    <output expression="&quot;Verdadero&quot;" newline="True"/>
+                    <output expression="true" newline="True"/>
                 </then>
                 <else>
-                    <output expression="&quot;Falso&quot;" newline="True"/>
+                    <output expression="false" newline="True"/>
                 </else>
             </if>
         </body>

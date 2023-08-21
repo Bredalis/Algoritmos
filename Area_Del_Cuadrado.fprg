@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-18 09:47:00 AM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNToyMDozNCBQTTszMDU4"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODswOTo0NzowMCBBTTs1OzMxNjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lado" type="Real" array="False" size=""/>
+            <input variable="lado"/>
+            <call expression="MostrarAreaDelCuadrado(lado)"/>
+        </body>
+    </function>
+    <function name="AreaDelCuadrado" type="Real" variable="area">
+        <parameters>
+            <parameter name="lado" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="lado * lado"/>
+        </body>
+    </function>
+    <function name="MostrarAreaDelCuadrado" type="None" variable="">
+        <parameters>
+            <parameter name="lado" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;El area del cuadrado con lado: &quot; &amp; lado &amp; &quot; es igual a: &quot; &amp; AreaDelCuadrado(lado)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

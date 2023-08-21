@@ -4,19 +4,20 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-20 03:37:35 PM"/>
+        <attribute name="saved" value="2023-08-18 11:02:43 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoyNjo0NyBQTTszMDYw"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzozNzozNSBQTTsyOzMxNjg="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMTowMjo0MyBBTTszOzMxNTM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Nombre" type="String" array="False" size=""/>
-            <assign variable="Nombre" expression="&quot;Bredalis&quot;"/>
-            <declare name="Apellido" type="String" array="False" size=""/>
-            <assign variable="Apellido" expression="&quot;Guerrero&quot;"/>
+            <comment text="Uso del tipo de dato string"/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <assign variable="nombre" expression="&quot;Bredalis&quot;"/>
+            <declare name="apellido" type="String" array="False" size=""/>
+            <assign variable="apellido" expression="&quot;Guerrero&quot;"/>
             <declare name="NombreCompleto" type="String" array="False" size=""/>
-            <assign variable="NombreCompleto" expression="Nombre &amp; &quot; &quot; &amp; Apellido"/>
+            <assign variable="NombreCompleto" expression="nombre &amp; &quot; &quot; &amp; apellido"/>
             <output expression="&quot;El usuario se llama: &quot; &amp; NombreCompleto" newline="True"/>
         </body>
     </function>

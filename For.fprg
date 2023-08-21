@@ -4,19 +4,20 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-24 03:22:41 PM"/>
+        <attribute name="saved" value="2023-08-18 10:25:47 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNDswMzoxNTo0OSBQTTszMDY0"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNDswMzoyMjo0MSBQTTsyOzMxNjM="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDoyNTo0NyBBTTszOzMxNjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Mensaje" type="String" array="False" size=""/>
-            <input variable="Mensaje"/>
-            <declare name="Contador" type="Integer" array="False" size=""/>
-            <assign variable="Contador" expression="0"/>
-            <for variable="Contador" start="0" end="10" direction="inc" step="1">
-                <output expression="Mensaje" newline="True"/>
+            <comment text="Programa que repite un mensaje&#13;&#10;10 veces"/>
+            <declare name="mensaje" type="String" array="False" size=""/>
+            <input variable="mensaje"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="0"/>
+            <for variable="contador" start="0" end="10" direction="inc" step="1">
+                <output expression="mensaje" newline="True"/>
             </for>
         </body>
     </function>

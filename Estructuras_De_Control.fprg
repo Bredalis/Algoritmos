@@ -4,25 +4,25 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-07-03 11:43:20 PM"/>
+        <attribute name="saved" value="2023-08-18 10:20:31 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzozODoxOSBQTTszMDYy"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNy0wMzsxMTo0MzoyMCBQTTs0OzMxNjI="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDoyMDozMSBBTTs1OzMxNTE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="EdadPersona" type="Integer" array="False" size=""/>
-            <input variable="EdadPersona"/>
-            <declare name="EdadAccesoAlEjercito" type="Integer" array="False" size=""/>
-            <assign variable="EdadAccesoAlEjercito" expression="18"/>
+            <declare name="EdadDePersona" type="Integer" array="False" size=""/>
+            <input variable="EdadDePersona"/>
+            <declare name="EdadParaAccesoAlEjercito" type="Integer" array="False" size=""/>
+            <assign variable="EdadParaAccesoAlEjercito" expression="18"/>
             <declare name="A&#241;osDeEspera" type="Integer" array="False" size=""/>
-            <assign variable="A&#241;osDeEspera" expression="EdadAccesoAlEjercito - EdadPersona"/>
-            <if expression="EdadPersona &gt;= 18 &amp;&amp; EdadPersona &lt;= 60">
+            <assign variable="A&#241;osDeEspera" expression="EdadParaAccesoAlEjercito - EdadDePersona"/>
+            <if expression="EdadDePersona &gt;= 18 &amp;&amp; EdadDePersona &lt;= 60">
                 <then>
                     <output expression="&quot;Puede enlistarse para el ejercito&quot;" newline="True"/>
                 </then>
                 <else>
-                    <if expression="EdadPersona &gt; 60">
+                    <if expression="EdadDePersona &gt; 60">
                         <then>
                             <output expression="&quot;Pasas de 60 a&#241;os&quot;" newline="True"/>
                         </then>

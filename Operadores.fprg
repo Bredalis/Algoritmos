@@ -4,20 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-07-03 11:37:56 PM"/>
+        <attribute name="saved" value="2023-08-18 10:59:18 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMjswNDoxNzoxNSBQTTszMDU4"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNy0wMzsxMTozNzo1NiBQTTs1OzMxNzU="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDo1OToxOCBBTTs2OzMxNjk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="EdadPersona" type="Integer" array="False" size=""/>
-            <input variable="EdadPersona"/>
+            <comment text="Programa que determina si cumples con los requisitos para ir al ejercito"/>
+            <declare name="EdadDePersona" type="Integer" array="False" size=""/>
+            <input variable="EdadDePersona"/>
             <declare name="Pais" type="String" array="False" size=""/>
             <input variable="Pais"/>
-            <if expression="(Pais == &quot;Espa&#241;a&quot; &amp;&amp; EdadPersona &gt;= 18) || (Pais == &quot;Colombia&quot; &amp;&amp; EdadPersona &gt;= 18)">
+            <if expression="(Pais == &quot;Espa&#241;a&quot; &amp;&amp; EdadDePersona &gt;= 18) || (Pais == &quot;Colombia&quot; &amp;&amp; EdadDePersona &gt;= 18)">
                 <then>
-                    <if expression="EdadPersona &gt; 60">
+                    <if expression="EdadDePersona &gt; 60">
                         <then>
                             <output expression="&quot;No puedes ir al ejercito, ya que tienes mas de 60 a&#241;os&quot;" newline="True"/>
                         </then>

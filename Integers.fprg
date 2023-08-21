@@ -4,20 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-20 03:21:37 PM"/>
+        <attribute name="saved" value="2023-08-18 10:50:42 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoxMjo1OSBQTTszMDU4"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMDswMzoyMTozNyBQTTsyOzMxNjM="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDo1MDo0MiBBTTszOzMxNTQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="EdadPedro" type="Integer" array="False" size=""/>
-            <assign variable="EdadPedro" expression="12"/>
-            <assign variable="EdadPedro" expression="27"/>
-            <declare name="EdadAntonio" type="Integer" array="False" size=""/>
-            <assign variable="EdadAntonio" expression="10"/>
-            <declare name="RestaEdades" type="Integer" array="False" size=""/>
-            <assign variable="RestaEdades" expression="EdadPedro - EdadAntonio"/>
+            <comment text="Trabajando con datos tipo int"/>
+            <declare name="EdadDePedro" type="Integer" array="False" size=""/>
+            <assign variable="EdadDePedro" expression="12"/>
+            <assign variable="EdadDePedro" expression="27"/>
+            <declare name="EdadDeAntonio" type="Integer" array="False" size=""/>
+            <assign variable="EdadDeAntonio" expression="10"/>
+            <declare name="RestaDeEdades" type="Integer" array="False" size=""/>
+            <assign variable="RestaDeEdades" expression="EdadDePedro - EdadDeAntonio"/>
         </body>
     </function>
 </flowgorithm>

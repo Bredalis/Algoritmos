@@ -4,42 +4,42 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-07-03 04:38:49 PM"/>
+        <attribute name="saved" value="2023-08-18 10:11:14 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMjswNDoyNToyMSBQTTszMDU0"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNy0wMzswNDozODo0OSBQTTs2OzMxODE="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDoxMToxNCBBTTs3OzMxNTQ="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Numero1" type="Real" array="False" size=""/>
-            <input variable="Numero1"/>
-            <declare name="Numero2" type="Real" array="False" size=""/>
-            <input variable="Numero2"/>
-            <declare name="Operacion" type="String" array="False" size=""/>
-            <input variable="Operacion"/>
-            <if expression="Operacion == &quot;Suma&quot;">
+            <declare name="numero1" type="Real" array="False" size=""/>
+            <input variable="numero1"/>
+            <declare name="numero2" type="Real" array="False" size=""/>
+            <input variable="numero2"/>
+            <declare name="operacion" type="String" array="False" size=""/>
+            <input variable="operacion"/>
+            <if expression="operacion == &quot;Suma&quot;">
                 <then>
-                    <output expression="&quot;El resultado de la &quot; &amp;  Operacion &amp; &quot; es: &quot; &amp; Numero1 + Numero2" newline="True"/>
+                    <output expression="&quot;El resultado de la &quot; &amp;  operacion &amp; &quot; es: &quot; &amp; numero1 + numero2" newline="True"/>
                 </then>
                 <else>
-                    <if expression="Operacion == &quot;Resta&quot;">
+                    <if expression="operacion == &quot;Resta&quot;">
                         <then>
-                            <output expression="&quot;El resultado de la &quot; &amp;  Operacion &amp;  &quot; es: &quot; &amp; Numero1 - Numero2" newline="True"/>
+                            <output expression="&quot;El resultado de la &quot; &amp; operacion &amp;  &quot; es: &quot; &amp; numero1 - numero2" newline="True"/>
                         </then>
                         <else>
-                            <if expression="Operacion == &quot;Multiplicacion&quot;">
+                            <if expression="operacion == &quot;Multiplicacion&quot;">
                                 <then>
-                                    <output expression="&quot;El resultado de la &quot; &amp; Operacion &amp; &quot; es: &quot; &amp; Numero1 * Numero2" newline="True"/>
+                                    <output expression="&quot;El resultado de la &quot; &amp; operacion &amp; &quot; es: &quot; &amp; numero1 * numero2" newline="True"/>
                                 </then>
                                 <else>
-                                    <if expression="Operacion == &quot;Division&quot;">
+                                    <if expression="operacion == &quot;Division&quot;">
                                         <then>
-                                            <if expression="Numero2 == 0">
+                                            <if expression="numero2 == 0">
                                                 <then>
                                                     <output expression="&quot;No puedes dividir por cero&quot;" newline="True"/>
                                                 </then>
                                                 <else>
-                                                    <output expression="&quot;El resultado de la &quot; &amp; Operacion &amp; &quot; es: &quot; &amp; Numero1 / Numero2" newline="True"/>
+                                                    <output expression="&quot;El resultado de la &quot; &amp; operacion &amp; &quot; es: &quot; &amp; numero1 / numero2" newline="True"/>
                                                 </else>
                                             </if>
                                         </then>

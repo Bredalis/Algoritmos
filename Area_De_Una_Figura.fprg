@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-18 09:59:48 AM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNjswNTo0MDo1OCBQTTszMDY2"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODswOTo1OTo0OCBBTTs2OzMxODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="figura" type="String" array="False" size=""/>
+            <input variable="figura"/>
+            <if expression="figura == &quot;Triangulo&quot;">
+                <then>
+                    <declare name="lado1" type="Real" array="False" size=""/>
+                    <input variable="lado1"/>
+                    <declare name="lado2" type="Real" array="False" size=""/>
+                    <input variable="lado2"/>
+                    <declare name="lado3" type="Real" array="False" size=""/>
+                    <input variable="lado3"/>
+                    <call expression="AreaDelTriangulo(lado1, lado2, lado3, figura)"/>
+                </then>
+                <else>
+                    <if expression="figura == &quot;Cuadrado&quot;">
+                        <then>
+                            <declare name="lado" type="Real" array="False" size=""/>
+                            <input variable="lado"/>
+                            <call expression="AreaDelCuadrado(lado, figura)"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;No fue identificada la figura&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="AreaDelCuadrado" type="Real" variable="area">
+        <parameters>
+            <parameter name="lado" type="Real" array="False"/>
+            <parameter name="figura" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="lado * lado"/>
+            <output expression="&quot;El area del &quot; &amp; figura &amp; &quot; es: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+    <function name="AreaDelTriangulo" type="Real" variable="area">
+        <parameters>
+            <parameter name="lado1" type="Real" array="False"/>
+            <parameter name="lado2" type="Real" array="False"/>
+            <parameter name="lado3" type="Real" array="False"/>
+            <parameter name="figura" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="(lado1 * lado2 * lado3) / 2"/>
+            <output expression="&quot;El area del &quot; &amp; figura &amp; &quot; es: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

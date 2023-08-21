@@ -4,22 +4,23 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-19 11:33:02 PM"/>
+        <attribute name="saved" value="2023-08-18 10:46:57 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0xODswMzo0MDozMCBQTTszMDU1"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0xOTsxMTozMzowMiBQTTsyOzMxNjU="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMDo0Njo1NyBBTTs0OzMxNjY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="NacimientoUsuario" type="Integer" array="False" size=""/>
-            <input variable="NacimientoUsuario"/>
+            <comment text="Programa que muestra si puedes conducir o no"/>
+            <declare name="NacimientoDeUsuario" type="Integer" array="False" size=""/>
+            <input variable="NacimientoDeUsuario"/>
             <declare name="A&#241;oActual" type="Integer" array="False" size=""/>
             <input variable="A&#241;oActual"/>
-            <declare name="EdadConducir" type="Integer" array="False" size=""/>
-            <assign variable="EdadConducir" expression="18"/>
-            <declare name="EdadUsuario" type="Integer" array="False" size=""/>
-            <assign variable="EdadUsuario" expression="A&#241;oActual - NacimientoUsuario"/>
-            <if expression="EdadUsuario &gt;= EdadConducir">
+            <declare name="EdadParaConducir" type="Integer" array="False" size=""/>
+            <assign variable="EdadParaConducir" expression="18"/>
+            <declare name="EdadDeUsuario" type="Integer" array="False" size=""/>
+            <assign variable="EdadDeUsuario" expression="A&#241;oActual - NacimientoDeUsuario"/>
+            <if expression="EdadDeUsuario &gt;= EdadParaConducir">
                 <then>
                     <output expression="&quot;Puede conducir&quot;" newline="True"/>
                 </then>

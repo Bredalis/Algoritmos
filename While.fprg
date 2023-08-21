@@ -4,23 +4,24 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-06-23 05:45:57 PM"/>
+        <attribute name="saved" value="2023-08-18 11:08:27 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNTozMToyMiBQTTszMDU0"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMzswNTo0NTo1NyBQTTsyOzMxNzY="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMTowODoyNyBBTTszOzMxNjE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="PersonasCharlas" type="String" array="True" size="4"/>
-            <assign variable="PersonasCharlas[0]" expression="&quot;Pedro&quot;"/>
-            <assign variable="PersonasCharlas[1]" expression="&quot;Karla&quot;"/>
-            <assign variable="PersonasCharlas[2]" expression="&quot;Lucia&quot;"/>
-            <assign variable="PersonasCharlas[3]" expression="&quot;Carmen&quot;"/>
-            <declare name="Contador" type="Integer" array="False" size=""/>
-            <assign variable="Contador" expression="0"/>
-            <while expression="Contador &lt; 4">
-                <output expression="&quot;Te llamas: &quot; &amp; PersonasCharlas[Contador]" newline="True"/>
-                <assign variable="Contador" expression="Contador + 1"/>
+            <comment text="Programa que muestra los datos de un array con ayuda de un bucle while"/>
+            <declare name="NombreDePersonas" type="String" array="True" size="4"/>
+            <assign variable="NombreDePersonas[0]" expression="&quot;Pedro&quot;"/>
+            <assign variable="NombreDePersonas[1]" expression="&quot;Karla&quot;"/>
+            <assign variable="NombreDePersonas[2]" expression="&quot;Lucia&quot;"/>
+            <assign variable="NombreDePersonas[3]" expression="&quot;Carmen&quot;"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <assign variable="contador" expression="0"/>
+            <while expression="contador &lt; 4">
+                <output expression="&quot;Te llamas: &quot; &amp; NombreDePersonas[contador]" newline="True"/>
+                <assign variable="contador" expression="contador + 1"/>
             </while>
         </body>
     </function>
