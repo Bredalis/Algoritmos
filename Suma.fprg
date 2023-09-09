@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Angelica Gerrero"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-08-18 11:04:49 AM"/>
+        <attribute name="saved" value="2023-09-02 11:33:14 AM"/>
         <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yNTswNDozNDoxMSBQTTszMDU2"/>
-        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOC0xODsxMTowNDo0OSBBTTszOzMxNjE="/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wOS0wMjsxMTozMzoxNCBBTTs0OzMxNTA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -17,6 +17,7 @@
             <input variable="numero2"/>
             <declare name="resultado" type="Integer" array="False" size=""/>
             <assign variable="resultado" expression="Suma2Elementos(numero1, numero2)"/>
+            <output expression="resultado" newline="True"/>
         </body>
     </function>
     <function name="Suma2Elementos" type="Integer" variable="resultado">
