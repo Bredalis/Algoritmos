@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Angelica Gerrero"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-27 10:55:39 AM"/>
+        <attribute name="created" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0wNi0yMTswNDo0Njo1MSBQTTszMDU5"/>
+        <attribute name="edited" value="QW5nZWxpY2EgR2VycmVybztCVFM7MjAyMy0xMS0yNzsxMDo1NTozOSBBTTs0OzMxNjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="&quot;Hola&quot; == &quot;Hola&quot;">
+                <then>
+                    <output expression="true" newline="True"/>
+                </then>
+                <else>
+                    <output expression="false" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
