@@ -1,2 +1,2 @@
-# Algoritmos
-👨🏻‍💻 Representacion grafica de los algoritmos (Diagramas de flujos) 👨🏻‍💻
+# Algorithms
+👨🏻‍💻 Graphic representation of the algorithms (Flow charts) 👨🏻‍💻
